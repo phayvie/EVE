@@ -1,50 +1,53 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
-body{
+ *{
     margin: 0;
     padding: 0;
+ }
+
+ body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+ }
+
+ .container{
+ height: 100vh;
+ width: 100vw;
+ display: grid;
+ grid-template-rows: 55% 35% 10%;
+ }
+
+ .container .introText{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 8vw;
+    font-family: 'Niconne', cursive;
+ }
+
+ .container .shopNow{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+ } 
+
+ .container .shopNow button{
+width: 20vw;
+height: 4vh;
+font-size: 100%;
+ }
+
+ .footer{
     display: grid;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-}
+    grid-template-columns:  1fr 1fr 1fr;
+    
+    margin: 1vw;
+ }
 
-header{
-    display: flex;
-    align-items: center;
-    justify-content:end;
-    width: 100vw;
-    height: 15vh;
-    background-color: rgb(235, 232, 232);
-}
-
- 
- 
-main{
-    height: 70vh;
-     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.introText{
-    font-size: 10vw;
-    font-family: 'Lobster', cursive;
-    color: rgb(21, 127, 226);
-}
-
-footer{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    width: 100vw;
-    height: 15vh;
-    background-color: rgb(235, 232, 232);
-}
-
-footer div{
-    margin: 2vh;
-}
+ .footer div{
+ border: 1px solid black;
+ margin: 0.5vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ }
