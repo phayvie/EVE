@@ -32,7 +32,7 @@
  } 
 
  .container .shopNow button{
-width: 20vw;
+width: 30vw;
 height: 4vh;
  }
 
@@ -46,6 +46,7 @@ height: 4vh;
  .footer div{
  border: 1px solid black;
  margin: 0.5vw;
+ margin-bottom: 10vh;
  display: flex;
  justify-content: center;
  align-items: center;
