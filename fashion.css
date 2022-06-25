@@ -34,7 +34,6 @@
  .container .shopNow button{
 width: 20vw;
 height: 4vh;
-font-size: 100%;
  }
 
  .footer{
@@ -51,3 +50,12 @@ font-size: 100%;
  justify-content: center;
  align-items: center;
  }
+@media (max-width:800px) {
+    .container .introText{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        font-size: 15vw;
+        font-family: 'Niconne', cursive;
+     }
+}
