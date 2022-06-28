@@ -53,7 +53,7 @@
  } 
 
  .container .shopNow button{
-width: 30vw;
+width: 10vw;
 height: 4vh;
  }
 
@@ -77,4 +77,10 @@ height: 4vh;
         font-size: 15vw;
         font-family: 'Niconne', cursive;
      }
+
+     .container .shopNow button{
+        width: 25vw;
+        height: 4vh;
+       }
+      
 }
