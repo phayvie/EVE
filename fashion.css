@@ -14,7 +14,27 @@
  height: 100vh;
  width: 100vw;
  display: grid;
- grid-template-rows: 55% 35% 10%;
+ grid-template-rows: 45% 45% 10%;
+ }
+
+ .main{
+   display: grid;
+   grid-template-rows: 50% 50%;
+ }
+
+ .navBar{
+ display: flex;
+ justify-content: end;
+ align-items: center;
+ height:80px;
+ margin: 10px;
+ }
+
+ .nav{
+   
+   padding: 1vw;
+   height: 70px;
+    
  }
 
  .container .introText{
@@ -23,6 +43,7 @@
     align-items: end;
     font-size: 8vw;
     font-family: 'Niconne', cursive;
+    color: rgb(201, 7, 7);
  }
 
  .container .shopNow{
@@ -39,14 +60,11 @@ height: 4vh;
  .footer{
     display: grid;
     grid-template-columns:  1fr 1fr 1fr;
-    
     margin: 1vw;
  }
 
  .footer div{
- border: 1px solid black;
  margin: 0.5vw;
- margin-bottom: 10vh;
  display: flex;
  justify-content: center;
  align-items: center;
