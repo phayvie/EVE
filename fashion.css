@@ -8,20 +8,60 @@
     width: 100vw;
     margin: 0;
     padding: 0;
+    background-image: url(wed3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 5s;
+   
+   animation-name: animate;
+   animation-duration: 60s;
+   animation-fill-mode:forward ;
+   animation-play-state:running;
+   animation-timing-function: ease-in-out;
+ }
+ @keyframes animate {
+   0%{
+background-image: url(wed1.jpg);
+   }
+    10%{
+      background-image: url(wed2.jpg);
+   }
+   20%{
+      background-image: url(wed13.jpg);
+   }
+   30%{
+      background-image: url(wed7.jpg);
+   }
+   40%{
+      background-image: url(wed10.jpg);
+   }
+   50%{
+      background-image: url(wed10.jpg);
+   }
+   60%{
+      background-image: url(wed3.jpg);
+   }
+   70%{
+      background-image: url(wed7.jpg);
+   }
+   80%{
+      background-image: url(wed1.jpg);
+   }
+   90%{
+      background-image: url(wed2.jpg);
+   }
+   100%{
+      background-image: url(wed13.jpg);
+   }
  }
 
- .container{
- height: 100vh;
- width: 100vw;
- display: grid;
- grid-template-rows: 45% 45% 10%;
- }
 
  .main{
    display: grid;
-   grid-template-rows: 50% 50%;
+   height: 100vh;
+   width: 100vw;
+   grid-template-rows: 30% 70%;
  }
-
  .navBar{
  display: flex;
  justify-content: end;
@@ -31,46 +71,42 @@
  }
 
  .nav{
-   
    padding: 1vw;
    height: 70px;
-    
+
  }
 
- .container .introText{
+ .main .introText{
     display: flex;
     justify-content: center;
     align-items: end;
     font-size: 9vw;
     font-family: 'Niconne', cursive;
     color: rgb(201, 7, 7);
+    text-shadow: 1px 5px 10px rgb(126, 122, 122);
  }
 
- .container .shopNow{
+ .main .shopNow{
     display: flex;
     justify-content: center;
     align-items: start;
  } 
 
- .container .shopNow button{
+ .main .shopNow button{
 width: 10vw;
 height: 4vh;
+box-shadow: 1px 3px 10px rgb(92, 23, 23);
+border: none;
+background-color: rgb(155, 120, 120);
+color: rgb(124, 22, 22);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
  }
 
- .footer{
-    display: grid;
-    grid-template-columns:  1fr 1fr 1fr;
-    margin: 1vw;
- }
 
- .footer div{
- margin: 0.5vw;
- display: flex;
- justify-content: center;
- align-items: center;
- }
+ 
 @media (max-width:800px) {
-    .container .introText{
+    .main .introText{
         display: flex;
         justify-content: center;
         align-items: end;
@@ -78,7 +114,7 @@ height: 4vh;
         font-family: 'Niconne', cursive;
      }
 
-     .container .shopNow button{
+     .main .shopNow button{
         width: 25vw;
         height: 4vh;
        }
