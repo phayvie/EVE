@@ -7,8 +7,9 @@
 body{
    height: 100vh;
    width: 100vw;
-   background-image: url(pexels-jacob-prose-2592147.jpg);
+   background-image: url(wed3.jpg);
    background-position: center;
+   background-position-y: top;
 }
  .container{
    height: 100vh;
@@ -43,9 +44,9 @@ body{
    align-self: center;
    font-weight: 500;
    font-family: 'Allura', cursive;
-   color: rgb(221, 62, 89);
+   color: rgb(143, 9, 31);
    padding-bottom: 10vh;
-    text-shadow: 5px 5px 5px rgb(133, 115, 115);
+    text-shadow: 5px 5px 5px rgb(19, 15, 15);
     text-align: center;
  }
 
