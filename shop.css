@@ -11,11 +11,28 @@
 
 .mediaElement {
     margin: 1vw;
-
+    height: 300px;
+    width: 200px;
+    background-color: rgb(218, 208, 208);
+    display: grid;
+    justify-content: center;
+    box-shadow: 5px 5px 10px rgb(179, 173, 173);
+     padding-top: 10px;
 }
 
 .mediaElement img{
     height: 200px;
-
+    width: 150px;
+    object-fit: cover;
+    box-shadow: 5px 5px 10px rgb(10, 10, 10);
+    padding: 0;
 }
 
+p{
+    text-align: center;
+}
+
+h2{
+text-align: center;
+}
+ 
