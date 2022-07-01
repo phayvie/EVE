@@ -1,102 +1,56 @@
-*{
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-}
+ *{
+  margin: 0;
+  padding: 0;
+ }
 
-/* .trend{
-  display: grid;
-  grid-auto-flow: column;
- overflow-x: auto;
-}
-
-.mediaElement {
-    margin: 1vw;
-    height: 300px;
-    width: 200px;
-    background-color: rgb(218, 208, 208);
-    display: grid;
-    justify-content: center;
-    box-shadow: 5px 5px 10px rgb(179, 173, 173);
-     padding-top: 10px;
-}
-
-.mediaElement img{
-    height: 200px;
-    width: 150px;
-    object-fit: cover;
-    box-shadow: 5px 5px 10px rgb(10, 10, 10);
-    padding: 0;
-}
-
-p{
-    text-align: center;
-}
-
-h2{
-text-align: center;
-}
-  */
-
-  .container{
-    height: 100vh;
-    width: 100vw;
-    display: grid;
-    justify-content: center;
-    grid-template-rows: 7% 20% 55% 20%;
-    overflow-x: hidden;
+ body{
+  background-color: black;
   }
 
-  .nav-bar{
-    border: 1px solid black;
-    width: 99vw;
-    display: flex;
-    justify-content: end;
+  .container{
+    display: grid;
+    justify-content: center;
     align-items: center;
-    overflow-y: hidden;
+  }
+
+  .navBar{
+    height: 60px;
+    width:  100vw;
+    background-color: rgb(107, 95, 95);
   }
 
   .category{
-    border: 1px solid black;
-    width: 99vw;
     display: grid;
-    align-items: center;
-    grid-auto-flow: column;
+    grid-auto-flow:column;
     overflow-x: auto;
+    gap: 2px;
+    height: 200px;
+    width: 100vw;
+    margin-top: 5px ;
     overflow-y: hidden;
-    padding: 10px;
+   
   }
 
   .category div{
-    width: 90px;
-    height: 90px;
-    border: 1px solid black;
-    border-radius: 50%;
+    height: 100%;
+    width: 200px;
+    /* background-color: rgb(107, 95, 95); */
     margin: 5px;
-    
-  }
-
-  .new-trends{
-    border: 1px solid black;
-    width: 99vw;
-  }
-
-  .magazine{
-    border: 1px solid black;
-    width: 99vw;
     display: grid;
+    justify-content: center;
     align-items: center;
-    grid-auto-flow: column;
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding: 10px;
   }
 
-  .magazine div{
-    width: 90px;
-    height: 90px;
-    border: 1px solid black;
-    border-radius: 50%;
-    margin: 5px;
-    
+  .category div #circle{
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+   background-color: antiquewhite;
+   justify-self: center;
   }
+
+  .category div div{
+    color: antiquewhite;
+  }
+
+   
