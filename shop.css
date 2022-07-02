@@ -21,9 +21,15 @@
   .navBar{
     height: 60px;
     width:  100%;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    align-items: center;
+    justify-content: center;
     /* background-color: rgb(107, 95, 95); */
   }
 
+  
   .category{
     display: grid;
     grid-auto-flow:column;
