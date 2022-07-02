@@ -6,7 +6,7 @@
  body{
   background-color: black;
   }
-
+ 
   .container{
     display: grid;
     justify-content: center;
@@ -47,10 +47,22 @@
    justify-self: center;
   }
 
+  
+  .nom{
+    text-decoration: none;
+  }
+
   .category div div{
     color: antiquewhite;
   }
 
+
+  h1{
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
   .main{
     display: grid;
     justify-content: center;
