@@ -23,7 +23,6 @@
     display: grid;
     grid-auto-flow:column;
     overflow-x: auto;
-    gap: 2px;
     height: 200px;
     width: 100%;
     margin-top: 5px ;
@@ -33,8 +32,7 @@
 
   .category div{
     height: 100%;
-    width: 200px;
- 
+    width: 150px;
     margin: 5px;
     display: grid;
     justify-content: center;
@@ -65,12 +63,28 @@
     background-color: antiquewhite;
     border-radius: 10px;
     margin: 5px;
+ 
   }
 
+  .main div .image{
+    height: 85%;
+    background-color: pink;
+  }
+
+  .main div .foot{
+    background-color: lightsteelblue;
+    height: 10%;
+    
+  }
    
 @media (max-width:500px) {
   .category{
     height: 150px;
+  }
+
+  .category div{
+    width: 100px;
+    text-align: center;
   }
 
   .category div #circle{
