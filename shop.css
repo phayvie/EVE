@@ -15,7 +15,7 @@
 
   .navBar{
     height: 60px;
-    width:  100vw;
+    width:  100%;
     background-color: rgb(107, 95, 95);
   }
 
@@ -25,7 +25,7 @@
     overflow-x: auto;
     gap: 2px;
     height: 200px;
-    width: 100vw;
+    width: 100%;
     margin-top: 5px ;
     overflow-y: hidden;
    
@@ -34,7 +34,7 @@
   .category div{
     height: 100%;
     width: 200px;
-    /* background-color: rgb(107, 95, 95); */
+ 
     margin: 5px;
     display: grid;
     justify-content: center;
@@ -53,4 +53,51 @@
     color: antiquewhite;
   }
 
+  .main{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    margin: 5px;
+  }
+
+  .main div{
+    height: 500px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: 5px;
+  }
+
    
+@media (max-width:500px) {
+  .category{
+    height: 150px;
+  }
+
+  .category div #circle{
+  height: 70px;
+  width: 70px;
+}
+}
+
+@media (max-width:1400px) {
+  .main{
+    grid-template-columns: 300px 300px 300px;
+  }
+
+}
+
+@media (max-width:810px) {
+  .main{
+    grid-template-columns: 300px 300px;
+  }
+
+}
+
+
+@media (max-width:610px) {
+  .main{
+    grid-template-columns: 300px;
+    margin: 5px;
+  }
+
+}
