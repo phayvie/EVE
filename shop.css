@@ -21,7 +21,7 @@
   .navBar{
     height: 60px;
     width:  100%;
-    background-color: rgb(107, 95, 95);
+    /* background-color: rgb(107, 95, 95); */
   }
 
   .category{
@@ -37,8 +37,8 @@
 
   .category div{
     height: 100%;
-    width: 150px;
-    margin: 5px;
+    width:130px;
+    margin: 1px;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -52,7 +52,54 @@
    justify-self: center;
   }
 
+  .cVintage{
+    background-image: url(1b.jpg);
+    background-size: 100px;
+    background-position: center;
+    background-position-y:-32px;
+  }
+
+  .cAlternative{
+    background-image: url(1c.jpg);
+    background-size: 100px;
+    background-position-y:-20px;
+  }
+
+  .cDayout{
+    background-image: url(1d.jpg);
+    background-size: 100px;
+    background-position-y:-47px;
+  }
+
+  .cAfrica{
+ background-image: url(1a.jpg);
+ background-size: 100px;
+ background-position-y:-10px;
+  }
+
+  .cAsia{
+    background-image: url(1e.jpg);
+    background-size: 100px;
+    background-position-y:-22px;
+     }
   
+  .cEurope{
+  background-image: url(1f.jpg);
+  background-size: 100px;
+  background-position-y:-10px;
+    }
+
+  .cMulti{
+    background-image: url(1g.jpg);
+    background-size: 100px;
+    background-position-y: 2px;
+      }
+
+  .cPop{
+    background-image: url(1h.jpg);
+    background-size: 100px;
+    background-position-y: 3px;
+      }
   .nom{
     text-decoration: none;
   }
@@ -89,12 +136,20 @@
     background-color: pink;
   }
 
+  .main div .image img{
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+    }
+
+
   .main div .foot{
     background-color: lightsteelblue;
     height: 7%;
     display: flex;
     justify-content: end;
   }
+  
    
   .foot div{
      height:30px ;
@@ -110,12 +165,19 @@
     align-self: center;
   }
 
+
   .foot :nth-child(1){
      background-image: url(https://img.icons8.com/external-prettycons-flat-prettycons/47/000000/external-like-essentials-prettycons-flat-prettycons.png);
      background-size:  100%;
      background-repeat: no-repeat;
      background-position: center;
     }
+
+    .foot :nth-child(2){
+     align-self: baseline;
+     font-weight: 800;
+    }
+
 
     .foot :nth-child(3){
       background-image:url( https://img.icons8.com/fluency/48/000000/desktop-download.png);
@@ -129,7 +191,7 @@
   }
 
   .category div{
-    width: 100px;
+    width: 90px;
     text-align: center;
   }
 

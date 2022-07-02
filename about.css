@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 195, 195);
+}
+.cont{
+    display: grid;
+    align-items: center;
+    height: 100vh;
+}
+.picture{
+ width: 70vw;
+ padding-bottom: 50px;
+ background-color: rgb(158, 149, 149);
+ border-radius: 10px;
+ box-shadow: 2px 2px 2px rgb(75, 71, 71);
+}
+
+ .picture img{
+float: left;
+margin-right: 15px;
+height: 150px;
+padding: 5px;
+}
+
+h3{
+    padding: 6px;
+}
+
+footer{
+    display: grid;
+    justify-content: center;
+    align-items: top;
+    margin-top: 5px;
+    background-color: rgb(158, 149, 149);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(75, 71, 71);
+}
+
+p{
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+.social{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.linkedin{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.watsapp{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#social{
+    width:  100px;
+    
+}
+
+.social img{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
