@@ -5,8 +5,13 @@
 
  body{
   background-color: black;
+  font-family: 'Dancing Script', cursive;
   }
  
+  h1{
+    font-size: 22px;
+    margin: 5px;
+  }
   .container{
     display: grid;
     justify-content: center;
@@ -27,7 +32,7 @@
     width: 100%;
     margin-top: 5px ;
     overflow-y: hidden;
-   
+    font-size: 20px;
   }
 
   .category div{
@@ -75,6 +80,7 @@
     background-color: antiquewhite;
     border-radius: 10px;
     margin: 5px;
+    padding-bottom: 20px;
  
   }
 
@@ -85,10 +91,38 @@
 
   .main div .foot{
     background-color: lightsteelblue;
-    height: 10%;
-    
+    height: 7%;
+    display: flex;
+    justify-content: end;
   }
    
+  .foot div{
+     height:30px ;
+     width: 30px;
+     display: grid; 
+     justify-content:center;
+     align-items: center;
+     background: transparent;
+  }
+
+  .foot div img{
+    height:30px ;
+    align-self: center;
+  }
+
+  .foot :nth-child(1){
+     background-image: url(https://img.icons8.com/external-prettycons-flat-prettycons/47/000000/external-like-essentials-prettycons-flat-prettycons.png);
+     background-size:  100%;
+     background-repeat: no-repeat;
+     background-position: center;
+    }
+
+    .foot :nth-child(3){
+      background-image:url( https://img.icons8.com/fluency/48/000000/desktop-download.png);
+      background-size:  100%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
 @media (max-width:500px) {
   .category{
     height: 150px;
